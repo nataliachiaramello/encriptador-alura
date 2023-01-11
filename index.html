@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1# Challenge - Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Vector.png" alt="Logo del Sitio">
+    </header>
+
+    <main>
+        <section class="seccion1">
+                <textarea name="text" class="text-area" id="text" cols="30" rows="10" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <p class="atencion" id="error"><img src="imagenes/Vector2.png" alt="Atencion">Sólo letras minúsculas y sin acentos</p>
+
+            <div class="botones">
+                <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                
+                <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="contenedorMunheco">
+            <img src="imagenes/Muñeco.png" id="imagen" class="imagenMunheco" alt="Muñeco">
+                </div>
+
+        <section id="resultado" class="contenedor" >
+            <div>
+                <h1 class="contenedor-h1">Ningún mensaje fue encontrado</h1>
+            </div>
+            <div>
+                <p class="contenedor-p">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+        </section>
+
+        <div class="contenedor-copiar">
+                <button class="copiar" id="copiar" hidden >Copiar</button>
+        </div>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <p><b>&copy;Alura 2023</b></p>
+    </footer>
+
+    <script src="js/funciones.js"></script>
+</body>
+</html>

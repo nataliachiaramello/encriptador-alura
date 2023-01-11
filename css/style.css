@@ -1,0 +1,169 @@
+body{
+    font-family:'Inter', sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 40%;
+    height: 100%;
+}
+
+.seccion1{
+    width: 65%;
+}
+
+.text-area{
+    width: 80%;
+    height: 70%;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    border: none;
+    color: #0A3871;
+    background-color: #E5E5E5;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.atencion{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error{background-color: rgba(17, 0, 255, 0.342);}
+
+.botones{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-encriptar, .btn-desencriptar{
+    width: 30%;
+    height:50px ;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.btn-encriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    color: #D8DFD8;
+}
+
+.btn-encriptar:hover, .copiar:hover{
+    background-color: rgba(142, 142, 238, 0.808);
+    border: 1px solid rgba(142, 142, 238, 0.808);
+    color: #0A3871;
+}
+
+.btn-desencriptar{
+    background: #D8DFD8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+.btn-desencriptar:hover{
+    background: rgba(142, 142, 238, 0.808);;
+    border: 1px solid #0A3871;
+    color:#D8DFD8 ;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 80%;
+    height: 40em;
+    border-radius: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ocultarImagen{display: none;}
+
+.contenedorMunheco{
+    width: 100%;
+    height: 60%;
+    padding-top: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contenedor{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.copiar{
+    position: absolute;
+    bottom: -1.5em;
+    width: 25%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #D8DFD8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    font-size: 16px;
+    margin-left: 2em ;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+@media only screen and (max-width: 970px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .seccion1{
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+    
+    .card{
+        margin-top: 30px;
+        margin-left: 5rem;
+        width: 150%;
+        text-align: center;
+    }
+    .imagenMunheco{
+        display: none !important;
+    }
+    .copiar{
+        position: relative;
+        width: 80%;
+        margin-right: 2.5em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
